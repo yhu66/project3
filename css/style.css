@@ -125,5 +125,7 @@ iframe{
   border-width:0px;
 }
 
-div{
+div {
+  border: 1px solid white;
 }
+
