@@ -1,0 +1,120 @@
+nav{
+  font-family: Arial,Futura,Trebuchet MS,Arial,sans-serif;
+  text-align:center;
+}
+
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  background-color: #0a0a0a;
+}
+
+nav li{
+  font-family: Arial,Futura,Trebuchet MS,Arial,sans-serif;
+  display:inline-block;
+  padding: 15px 15px;
+}
+
+nav a{
+  color: white;
+  padding:10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color: white;
+  color: black;
+}
+
+
+body{
+  font-family: Arial,Futura,Trebuchet MS,Arial,sans-serif;
+  color: black;
+  background-color: #0a0a0a;
+}
+
+
+h1{ 
+  font-family: Arial,Futura,Trebuchet MS,Arial,sans-serif;
+  color: white;
+  font-size: 120px;
+  font-style: normal;
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 49px;
+  text-align: center;
+} 
+
+
+h2{
+  font-family: Palatino,Didot,Times New Roman,serif; 
+  font-size: 70px; 
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  margin:50px;
+
+}
+
+h3{
+  font-family: Palatino,Didot,Times New Roman,serif; 
+  font-size: 60px; 
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  margin:50px;
+}
+
+h4{
+  font-family: Palatino,Didot,Times New Roman,serif; 
+  font-size: 40px; 
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  margin:50px;
+}
+
+p{
+  font-family: Palatino,Didot,Times New Roman,serif; 
+  color: white;
+  text-align: center;
+
+}
+
+ul{
+  display: table;
+  margin:0 auto;
+}
+
+li{
+  font-family: Palatino,Didot,Times New Roman,serif; 
+  color: white;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 560px;
+  height: 315px;
+  border: 0px;
+  border-width:0px;
+}
+
+div{
+}
