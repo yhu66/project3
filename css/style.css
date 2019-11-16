@@ -1,5 +1,5 @@
 nav{
-  font-family: Arial,Futura,Trebuchet MS,Arial,sans-serif;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
   text-align:center;
 }
 
@@ -32,7 +32,6 @@ nav a:hover{
   color: black;
 }
 
-
 body{
   font-family: Arial,Futura,Trebuchet MS,Arial,sans-serif;
   color: black;
@@ -41,7 +40,7 @@ body{
 
 
 h1{ 
-  font-family: Arial,Futura,Trebuchet MS,Arial,sans-serif;
+  font-family: Didot,Futura,Arial,Trebuchet MS,Arial,sans-serif;
   color: white;
   font-size: 120px;
   font-style: normal;
@@ -53,7 +52,7 @@ h1{
 
 
 h2{
-  font-family: Palatino,Didot,Times New Roman,serif; 
+  font-family: Didot,Times New Roman,serif; 
   font-size: 70px; 
   font-weight: normal;
   font-style: normal;
