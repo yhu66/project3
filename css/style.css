@@ -83,11 +83,20 @@ h4{
   margin:50px;
 }
 
+h5{
+  font-family: Palatino,Didot,Times New Roman,serif; 
+  font-size: 40px; 
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  margin:50px;
+}
+
 p{
   font-family: Palatino,Didot,Times New Roman,serif; 
   color: white;
   text-align: center;
-
 }
 
 ul{
