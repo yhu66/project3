@@ -144,14 +144,8 @@ div {
   body {
     background-color: #ff6666;
   }
-  
-  
-  nav{
-  font-family: Futura,Trebuchet MS,Arial,sans-serif;
-  text-align: center;
-}
 
-nav ul{
+.navbar ul{
   display: inline-block;
   list-style-type: none;
   margin: 0;
@@ -162,20 +156,20 @@ nav ul{
   background-color: #ff6666;
 }
 
-nav li{
+.navbar li{
   font-family: Futura,Arial,Trebuchet MS,sans-serif;
   display: inline-block;
   padding: 15px 15px;
 }
 
-nav a{
+.navbar a{
   color: #ffffff;
   padding:10px;
   text-align: center;
   text-decoration: none;
 }
 
-nav a:hover{
+.navbar a:hover{
   background-color: #ffffff;
   color: #ff6666;
 }
