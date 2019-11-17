@@ -1,7 +1,6 @@
 var map;
       function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 30.576, lng: 114.298},
-              zoom: 8
-        });
-      }
+            var hankow = {lat: 30.576, lng: 114.298};
+            map = new google.maps.Map(document.getElementById('map'), {zoom: 8, center: hankow});
+            var marker = new google.maps.Marker({position: hankow, map: map});
+}             
