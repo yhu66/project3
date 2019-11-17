@@ -5,12 +5,7 @@ body{
 }
 
 
-nav{
-  font-family: Futura,Trebuchet MS,Arial,sans-serif;
-  text-align: center;
-}
-
-nav ul{
+.navbar ul{
   display: inline-block;
   list-style-type: none;
   margin: 0;
@@ -21,20 +16,20 @@ nav ul{
   background-color: #0a0a0a;
 }
 
-nav li{
+.navbar li{
   font-family: Futura,Arial,Trebuchet MS,sans-serif;
-  display:inline-block;
+  display: inline-block;
   padding: 15px 15px;
 }
 
-nav a{
-  color: #FFFFFF;
-  padding: 10px;
+.navbar a{
+  color: white;
+  padding:10px;
   text-align: center;
   text-decoration: none;
 }
 
-nav a:hover{
+.navbar a:hover{
   background-color: white;
   color: black;
 }
