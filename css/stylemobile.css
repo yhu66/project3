@@ -1,0 +1,251 @@
+body{
+  font-family: Arial,Futura,Trebuchet MS,sans-serif;
+  color: black;
+  background-color: #0a0a0a;
+}
+
+
+nav{
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  text-align: center;
+}
+
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  background-color: #0a0a0a;
+}
+
+nav li{
+  font-family: Futura,Arial,Trebuchet MS,sans-serif;
+  display:inline-block;
+  padding: 15px 15px;
+}
+
+nav a{
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color: white;
+  color: black;
+}
+
+
+h1 {
+  font-family: Didot,Futura,Arial,Trebuchet MS,sans-serif;
+  color: #e6c047;
+  font-size: 7rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -10px;
+
+}
+
+
+h2{
+  font-family: Didot,Times New Roman,serif;
+  font-size: 250%;
+  font-weight: normal;
+  font-style: normal;
+  color: #e6c047;
+  text-align: center;
+  margin: 20px;
+
+}
+
+h3{
+  font-family: Didot,Arial,Trebuchet MS,sans-serif;
+  font-size: 200%;
+  font-weight: 300;
+  font-style: normal;
+  color: #e6c047;
+  text-align: center;
+  margin:20px;
+}
+
+h4{
+  font-family: Futura,Arial,Trebuchet MS,sans-serif;
+  font-size: 150%;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 24px;
+  color: #e6c047;
+  text-align: center;
+  margin: 20px;
+}
+
+h5{
+  font-family: Futura,Arial,Trebuchet MS,sans-serif;
+  font-size: 100%; 
+  font-style: normal;
+  font-weight: 100;
+  line-height: 24px;
+  color: #e6c047;
+  text-align: center;
+  margin: 20px;
+}
+
+p{
+  font-family: Palatino,Didot,Times New Roman,serif;
+  font-size: 100%;
+  color: #e6c047;
+  text-align: center;
+  margin:30px;
+
+}
+
+ul{
+  display: table;
+  margin: 0 auto;
+}
+
+li{
+  font-family: Palatino,Didot,Times New Roman,serif;
+  color: white;
+}
+
+img{
+  display: block;
+  max-width:100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300%;
+  height: auto;
+  border: 0px;
+  border-width: 0px;
+}
+
+div {
+  border: 1px solid white;
+}
+
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+ 
+ 
+ @media only screen and (max-width: 600px) {
+  body {
+    background-color: #ff6666;
+  }
+  
+  
+  nav{
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  text-align: center;
+}
+
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  background-color: #ff6666;
+}
+
+nav li{
+  font-family: Futura,Arial,Trebuchet MS,sans-serif;
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+nav a{
+  color: #ffffff;
+  padding:10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color: #ffffff;
+  color: #ff6666;
+}
+
+h1 {
+  font-family: Didot,Futura,Arial,Trebuchet MS,sans-serif;
+  color: #ffffff;
+  font-size: 7rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -10px;
+}
+
+
+h2{
+  font-family: Didot,Times New Roman,serif;
+  font-size: 250%;
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px;
+
+}
+
+h3{
+  font-family: Didot,Arial,Trebuchet MS,sans-serif;
+  font-size: 200%;
+  font-weight: 300;
+  font-style: normal;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px;
+}
+
+h4{
+  font-family: Futura,Arial,Trebuchet MS,sans-serif;
+  font-size: 150%;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px;
+}
+
+h5{
+  font-family: Futura,Arial,Trebuchet MS,sans-serif;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px;
+}
+
+p{
+  font-family: Palatino,Didot,Times New Roman,serif;
+  font-size: 100%;
+  color: #ffffff;
+  text-align: center;
+  margin: 30px;
+}
+}  
