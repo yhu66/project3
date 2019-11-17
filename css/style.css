@@ -45,57 +45,61 @@ h1{
   font-size: 7rem;
   font-style: normal;
   font-variant: normal; 
-  font-weight: 300; 
+  font-weight: 100; 
   line-height: 36px;
   text-align: center;
+  letter-spacing: -10px;
+
 } 
 
 
 h2{
-  font-family: Didot,Times New Roman,serif; 
-  font-size: 250%; 
+  font-family: Didot,Times New Roman,serif;
+  font-size: 250%;
   font-weight: normal;
   font-style: normal;
-  color: white;
+  color: #ffffff;
   text-align: center;
-  margin:20px;
+  margin: 20px;
 
 }
 
 h3{
-  font-family: Didot,Arial,Trebuchet MS,Arial,sans-serif;
-  font-size: 200%; 
+  font-family: Didot,Arial,Trebuchet MS,sans-serif;
+  font-size: 200%;
   font-weight: 300;
   font-style: normal;
-  color: white;
+  color: #ffffff;
   text-align: center;
   margin:20px;
 }
 
 h4{
-  font-family: Palatino,Didot,Times New Roman,serif; 
-  font-size: 200%; 
-  font-weight: normal;
+  font-family: Futura,Arial,Trebuchet MS,sans-serif;
+  font-size: 150%;
   font-style: normal;
-  color: white;
+  font-weight: 100;
+  line-height: 24px;
+  color: #ffffff;
   text-align: center;
-  margin:20px;
+  margin: 20px;
 }
 
 h5{
-  font-family: Futura,Arial,Trebuchet MS,Arial,sans-serif;
-  font-size: 150%; 
-  font-weight: normal;
+  font-family: Futura,Arial,Trebuchet MS,sans-serif;
+  font-size: 100%; 
   font-style: normal;
-  color: white;
+  font-weight: 100;
+  line-height: 24px;
+  color: #ffffff;
   text-align: center;
-  margin:20px;
+  margin: 20px;
 }
 
 p{
-  font-family: Palatino,Didot,Times New Roman,serif; 
-  font-size: 100%; 
-  color: white;
+  font-family: Palatino,Didot,Times New Roman,serif;
+  font-size: 100%;
+  color: #e6c047;
   text-align: center;
   margin:30px;
 
