@@ -109,10 +109,9 @@ li{
 img{
   display: block;
   max-width: 100%;
-  width: 800px;
   height: auto;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 iframe{
@@ -273,10 +272,9 @@ li {
 img{
   display: block;
   max-width: 100%;
-  width: 800px;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 iframe {
@@ -295,7 +293,6 @@ iframe {
   margin-right: 70px;
   margin-left: 70px;  
 }
-
 
 .about {
   border: 1px solid white;
