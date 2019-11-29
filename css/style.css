@@ -38,7 +38,7 @@ h1 {
   font-style: normal;
   font-variant: normal;
   font-weight: 100;
-  line-height: 36px;
+  line-height: 85px;
   text-align: center;
   letter-spacing: -10px;
 }
@@ -119,13 +119,14 @@ iframe{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 300%;
-  height: auto;
+  max-width: 560px;
+  height: 315px;
+  width: 70%;
   border: 0px;
   border-width: 0px;
 }
 
-div {
+.music {
   border: 1px solid white;
 }
 
@@ -136,7 +137,9 @@ div {
  }
 
  
- @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
+   
+ 
 body{
   font-family: Arial,Futura ,Trebuchet MS,sans-serif;
   color: black;
@@ -193,7 +196,7 @@ h2{
   font-size: 250%;
   font-weight: normal;
   font-style: normal;
-  color: #e6c047;
+  color: #ff6666;
   text-align: center;
   margin: 20px;
 
@@ -204,7 +207,7 @@ h3{
   font-size: 200%;
   font-weight: 300;
   font-style: normal;
-  color: #e6c047;
+  color: #FF7900;
   text-align: center;
   margin:20px;
 }
@@ -215,7 +218,7 @@ h4{
   font-style: normal;
   font-weight: 100;
   line-height: 24px;
-  color: #e6c047;
+  color: #FF7900;
   text-align: center;
   margin: 20px;
 }
@@ -226,26 +229,25 @@ h5{
   font-style: normal;
   font-weight: 100;
   line-height: 24px;
-  color: #e6c047;
+  color: #ffffff;
   text-align: center;
   margin: 20px;
 }
 
-p{
+p {
   font-family: Palatino,Didot,Times New Roman,serif;
   font-size: 100%;
   color: #ffffff;
   text-align: center;
-  margin:30px;
-
+  margin: 30px;
 }
 
-ul{
+ul {
   display: table;
   margin: 0 auto;
 }
 
-li{
+li {
   font-family: Palatino,Didot,Times New Roman,serif;
   color: white;
 }
@@ -259,18 +261,51 @@ img{
   margin-right: auto;
 }
 
-iframe{
+iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 300%;
-  height: auto;
+  max-width: 560px;
+  height: 315px;
+  width: 70%;
   border: 0px;
   border-width: 0px;
 }
 
-div {
+.entertainment {
   border: 1px solid white;
+  margin-right: 70px;
+  margin-left: 70px;  
+}
+
+.movies {
+  border: 1px solid white;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.music {
+  border: 1px solid white;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.singer {
+  border: 1px solid white;
+  margin-right: 20px;
+  margin-left: 20px;  
+  margin-bottom: 20px;  
+}
+
+.about {
+  border: 1px solid white;
+  margin: 25px 50px 75px; 
+}
+
+.enter {
+  border: 1px solid white;
+  margin: 25px 50px 75px; 
+  
 }
 
 #map {
@@ -279,4 +314,4 @@ div {
    background-color: grey;
  }
  
-}  
+}
