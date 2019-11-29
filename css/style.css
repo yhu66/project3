@@ -111,8 +111,8 @@ img{
   max-width: 100%;
   width: 800px;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 iframe{
@@ -135,6 +135,24 @@ iframe{
    height: 400px;
    background-color: grey;
  }
+
+.entertainment {
+  border: 1px solid white;
+  margin-right: 70px;
+  margin-left: 70px;  
+}
+
+
+.about {
+  border: 1px solid white;
+  margin: 25px 50px 75px; 
+}
+
+.enter {
+  border: 1px solid white;
+  margin: 25px 50px 75px; 
+  
+}
 
  
 @media only screen and (min-width: 600px) {
@@ -278,24 +296,6 @@ iframe {
   margin-left: 70px;  
 }
 
-.movies {
-  border: 1px solid white;
-  margin-right: 80px;
-  margin-left: 80px;
-}
-
-.music {
-  border: 1px solid white;
-  margin-right: 80px;
-  margin-left: 80px;
-}
-
-.singer {
-  border: 1px solid white;
-  margin-right: 20px;
-  margin-left: 20px;  
-  margin-bottom: 20px;  
-}
 
 .about {
   border: 1px solid white;
